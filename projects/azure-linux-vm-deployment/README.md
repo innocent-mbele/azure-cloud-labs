@@ -1,36 +1,29 @@
 # Azure Linux VM Deployment
 
-## Objective
+Deploy an Ubuntu Linux virtual machine in Microsoft Azure, connect securely using SSH, install Nginx, and host a custom web page.
 
-Deploy an Ubuntu Linux Virtual Machine in Microsoft Azure.
+## Skills
 
-## Services Used
-
-- Azure Virtual Machines
-- Azure Virtual Network
-- Azure Resource Group
-- Azure Public IP
+- Microsoft Azure
+- Azure Virtual Machine (VM)
+- Ubuntu Linux
 - SSH
-
-## Tasks Performed
-
-- Created a Resource Group
-- Deployed an Ubuntu 24.04 LTS VM
-- Configured a Virtual Network and Subnet
-- Enabled SSH access
-- Verified successful deployment
+- Azure Network Security Group (NSG)
+- Nginx
 
 ## Screenshots
 
-### Creating the Virtual Machine
-
+### 1. Creating the Virtual Machine
 ![Creating Virtual Machine](screenshots/01-creating-virtual-machine.png)
 
-### Deployment Complete
+### 2. Azure VM Deployment Complete
+![Azure VM Deployment Complete](screenshots/02-Azure-VM-Deployment-Complete.png)
 
-![Deployment Complete](screenshots/02-Azure-VM-Deployment-Complete.png)
+### 3. SSH Connection to the Azure VM
+![SSH Connection](screenshots/03-SSH-connection-to-VM-on-Azure.png)
 
-## Outcome
+### 4. Testing Nginx After Installation
+![Nginx Test](screenshots/04-test-nginx-after-install-to-linux-vm.png)
 
-Successfully deployed and configured an Azure Linux Virtual Machine
-
+### 5. Custom Web Page Created
+![Custom Web Page](screenshots/05-custom-web-page-created.png)
