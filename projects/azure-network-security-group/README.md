@@ -1,28 +1,37 @@
-# Azure Network Security Group (NSG)
+# Azure Network Security Group
 
-Configure an NSG and associate it with a subnet.
+Created and configured an Azure Network Security Group (NSG) to control inbound traffic.
 
-## Quick Notes
+## Deployment
 
-- NSGs filter inbound and outbound traffic.
-- Lower priority number = higher priority.
-- First matching rule is applied.
-- Can be attached to a subnet or NIC.
-- Default rules remain unless overridden.
+| Resource | Name |
+|----------|------|
+| Network Security Group | nsg-cloud-labs-dev-001 |
+| Inbound Rule | Allow SSH (22) |
+| Inbound Rule | Allow HTTP (80) |
 
 ## Screenshots
 
-### NSG Created
+### 1. NSG created
 ![NSG Created](screenshots/01-nsg-created.png)
 
-### NSG Overview
+### 2. NSG overview
 ![NSG Overview](screenshots/02-nsg-overview.png)
 
-### Default Rules
+### 3. Default security rules
 ![Default Rules](screenshots/03-nsg-default-rules.png)
 
-### HTTP Rule
-![HTTP Rule](screenshots/05-http-rule-added.png)
+### 4. Creating HTTP rule
+![Create HTTP Rule](screenshots/04-add-http-rule.png)
 
-### NSG Association
-![Association](screenshots/08-subnet-with-nsg.png)
+### 5. HTTP rule added
+![HTTP Rule Added](screenshots/05-http-rule-added.png)
+
+### 6. Associating NSG with subnet
+![Subnet Association](screenshots/06-subnet-association.png)
+
+### 7. NSG association overview
+![Association Overview](screenshots/07-nsg-associated-overview.png)
+
+### 8. Subnet protected by NSG
+![Subnet with NSG](screenshots/08-subnet-with-nsg.png)
