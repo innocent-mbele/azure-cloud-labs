@@ -1,0 +1,3 @@
+
+azure vm public ip - 20.216.44.109
+azure vm private ip -  172.16.0.4/24
