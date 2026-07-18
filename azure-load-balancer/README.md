@@ -59,9 +59,9 @@ Shows both Ubuntu Linux virtual machines added to the backend pool.
 
 ### Health Probe
 
-Shows the HTTP health probe configured to monitor the availability of backend virtual machines.
+Shows the HTTP health probe configured to monitor the availability of the backend virtual machines.
 
-![Health Probe](screenshots/azure-load-balancer-05-health-probe.png)
+![Health Probe](screenshots/azure-load-balancer-05-health-probe-created.png)
 
 ---
 
@@ -77,7 +77,7 @@ Shows the HTTP load balancing rule linking the frontend IP, backend pool and hea
 
 Shows both backend virtual machines reporting a healthy status.
 
-![Health Probe Status](screenshots/azure-load-balancer-07-load-balancer-health-probe-100.png)
+![Health Probe Status](screenshots/azure-load-balancer-07-load-bala-health-probe-status.png)
 
 ---
 
