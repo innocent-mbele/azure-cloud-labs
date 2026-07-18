@@ -1,37 +1,71 @@
 # Azure Network Security Group
 
-Created and configured an Azure Network Security Group (NSG) to control inbound traffic.
+## Overview
 
-## Deployment
+This project demonstrates the creation and configuration of an Azure Network Security Group (NSG) to control inbound network traffic. Security rules were configured to allow SSH (port 22) for remote administration and HTTP (port 80) for web traffic. The NSG was then associated with the virtual network subnet to protect the deployed resources.
 
-| Resource | Name |
-|----------|------|
-| Network Security Group | nsg-cloud-labs-dev-001 |
-| Inbound Rule | Allow SSH (22) |
-| Inbound Rule | Allow HTTP (80) |
+---
 
 ## Screenshots
 
-### 1. NSG created
+### NSG Created
+
+Shows the successful deployment of the Azure Network Security Group.
+
 ![NSG Created](screenshots/01-nsg-created.png)
 
-### 2. NSG overview
+---
+
+### NSG Overview
+
+Shows the Network Security Group properties and configuration after deployment.
+
 ![NSG Overview](screenshots/02-nsg-overview.png)
 
-### 3. Default security rules
+---
+
+### Default Security Rules
+
+Shows the default inbound and outbound security rules created with the NSG.
+
 ![Default Rules](screenshots/03-nsg-default-rules.png)
 
-### 4. Creating HTTP rule
+---
+
+### Creating HTTP Rule
+
+Shows the configuration of the inbound HTTP rule to allow web traffic on port 80.
+
 ![Create HTTP Rule](screenshots/04-add-http-rule.png)
 
-### 5. HTTP rule added
+---
+
+### HTTP Rule Added
+
+Shows the completed HTTP inbound rule successfully added to the Network Security Group.
+
 ![HTTP Rule Added](screenshots/05-http-rule-added.png)
 
-### 6. Associating NSG with subnet
+---
+
+### Associating NSG with Subnet
+
+Shows the Network Security Group being associated with the virtual network subnet.
+
 ![Subnet Association](screenshots/06-subnet-association.png)
 
-### 7. NSG association overview
+---
+
+### NSG Association Overview
+
+Shows the Network Security Group successfully associated with the subnet.
+
 ![Association Overview](screenshots/07-nsg-associated-overview.png)
 
-### 8. Subnet protected by NSG
+---
+
+### Subnet Protected by NSG
+
+Shows the subnet protected by the associated Network Security Group.
+
 ![Subnet with NSG](screenshots/08-subnet-with-nsg.png)
