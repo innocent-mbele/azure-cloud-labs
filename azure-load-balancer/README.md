@@ -9,20 +9,20 @@ This project demonstrates the deployment and configuration of an Azure Standard 
 ## Configuration Completed
 
 - Deployed Azure Standard Load Balancer
-- Configured Frontend Public IP
-- Created Backend Pool
-- Added two Ubuntu virtual machines
-- Configured HTTP Health Probe
-- Created HTTP Load Balancing Rule
+- Configured a Frontend Public IP
+- Created a Backend Pool
+- Added two Ubuntu Linux virtual machines
+- Configured an HTTP Health Probe
+- Created an HTTP Load Balancing Rule
 - Installed and configured Nginx on both virtual machines
 - Verified backend health
-- Verified load balancing between both servers
+- Confirmed traffic distribution across both servers
 
 ---
 
 ## Architecture
 
-```
+```text
                 Internet
                     │
                     ▼
@@ -39,22 +39,75 @@ vm-cloud-labs-linux-001   vm-cloud-labs-linux-002
 
 ## Verification
 
-- Both virtual machines are healthy.
-- Health probe reports 100% healthy instances.
-- HTTP requests are successfully distributed across both backend servers.
-- Traffic distribution verified using browser refreshes and PowerShell `curl` commands.
+- Both backend virtual machines reported healthy.
+- Health probe reached 100% healthy status.
+- HTTP requests were successfully distributed across both virtual machines.
+- Load balancing was verified using a web browser and PowerShell `curl` commands.
 
 ---
 
 ## Screenshots
 
-- Review and Create
-- Deployment Successful
-- Load Balancer Overview
-- Backend Pool
-- Health Probe
-- Load Balancing Rule
-- Health Probe (100% Healthy)
-- Browser showing VM001
-- Browser showing VM002
-- PowerShell Load Balancing Verification
+### Review and Create
+
+![Review and Create](screenshots/azure-load-balancer-01-review-and-create.png)
+
+---
+
+### Deployment Successful
+
+![Deployment Successful](screenshots/azure-load-balancer-02-deployment-success.png)
+
+---
+
+### Load Balancer Overview
+
+![Load Balancer Overview](screenshots/azure-load-balancer-03-load-balancer-overview.png)
+
+---
+
+### Backend Pool
+
+![Backend Pool](screenshots/azure-load-balancer-04-backend-pool.png)
+
+---
+
+### Health Probe
+
+![Health Probe](screenshots/azure-load-balancer-05-health-probe.png)
+
+---
+
+### Load Balancing Rule
+
+![Load Balancing Rule](screenshots/azure-load-balancer-06-load-balancing-rule.png)
+
+---
+
+### Health Probe - 100% Healthy
+
+![Health Probe 100% Healthy](screenshots/azure-load-balancer-07-load-balancer-health-probe-100.png)
+
+---
+
+### Load Balancing Rule Verification
+
+![Load Balancing Rule Verification](screenshots/azure-load-balancer-08-load-bal-rule.png)
+
+---
+
+### PowerShell Verification
+
+![PowerShell Verification](screenshots/azure-load-balancer-09-powershell-curl.png)
+
+---
+
+### Browser Verification - VM002
+
+![Browser Verification - VM002](screenshots/azure-load-balancer-10-webpage-vm2-shown.png)
+
+---
+
+### Browser Verification - VM001
+
+![Browser Verification - VM001](screenshots/azure-load-balancer-11-webpage-vm1-shown.png)
