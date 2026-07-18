@@ -1,22 +1,8 @@
-# Project 04 - Azure Standard Load Balancer
+# Azure Standard Load Balancer
 
 ## Overview
 
-This project demonstrates the deployment and configuration of an Azure Standard Load Balancer to distribute HTTP traffic across two Ubuntu Linux virtual machines running Nginx. A backend pool, health probe and load balancing rule were configured to provide high availability and automatic traffic distribution.
-
----
-
-## Configuration Completed
-
-- Deployed Azure Standard Load Balancer
-- Configured a Frontend Public IP
-- Created a Backend Pool
-- Added two Ubuntu Linux virtual machines
-- Configured an HTTP Health Probe
-- Created an HTTP Load Balancing Rule
-- Installed and configured Nginx on both virtual machines
-- Verified backend health
-- Confirmed traffic distribution across both servers
+This project demonstrates the deployment and configuration of an Azure Standard Load Balancer to distribute HTTP traffic across two Ubuntu Linux virtual machines running Nginx. A frontend public IP, backend pool, HTTP health probe and load balancing rule were configured to provide high availability and automatic traffic distribution. Nginx was installed on both virtual machines, backend health was verified and load balancing was confirmed using a web browser and PowerShell `curl` commands.
 
 ---
 
