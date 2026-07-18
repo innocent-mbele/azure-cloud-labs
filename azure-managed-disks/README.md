@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the creation and attachment of an Azure Managed Disk to an existing Ubuntu Linux virtual machine. The disk was partitioned, formatted and mounted to provide additional persistent storage.
+This project demonstrates the creation and attachment of an Azure Managed Disk to an existing Ubuntu Linux virtual machine. The disk was partitioned, formatted and mounted to provide additional persistent storage for the server.
 
 ---
 
@@ -10,7 +10,7 @@ This project demonstrates the creation and attachment of an Azure Managed Disk t
 
 ### Disks Overview in the VM
 
-**Verification:** Verified the virtual machine disk configuration before attaching an additional managed disk.
+Shows the virtual machine disk configuration before attaching an additional managed disk.
 
 ![Disks Overview](screenshots/01-disks-overview-in-vm.png)
 
@@ -18,7 +18,7 @@ This project demonstrates the creation and attachment of an Azure Managed Disk t
 
 ### Data Disk Attached
 
-**Verification:** Successfully attached the managed data disk to the virtual machine.
+Shows the managed data disk successfully attached to the virtual machine.
 
 ![Data Disk Attached](screenshots/02-data-disk-attached.png)
 
@@ -26,7 +26,7 @@ This project demonstrates the creation and attachment of an Azure Managed Disk t
 
 ### SSH Access
 
-**Verification:** Successfully connected to the virtual machine using SSH to prepare the disk.
+Shows a successful SSH connection to the virtual machine for disk configuration.
 
 ![SSH Access](screenshots/03-attached-disk-ssh-access.png)
 
@@ -34,6 +34,6 @@ This project demonstrates the creation and attachment of an Azure Managed Disk t
 
 ### Disk Partition and Mount
 
-**Verification:** Partitioned, formatted and mounted the managed disk successfully, making it available for use.
+Shows the managed disk partitioned, formatted and mounted successfully.
 
 ![Disk Partition and Mount](screenshots/04-disk-partition-mount.png)
