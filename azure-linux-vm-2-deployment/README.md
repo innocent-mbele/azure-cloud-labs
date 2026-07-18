@@ -1,25 +1,46 @@
-# Azure Linux VM 2 Deployment
+# Project 03 - Azure Linux VM 2 Deployment
 
-Deployed a second Ubuntu Linux virtual machine in Microsoft Azure and securely connected using an existing SSH key pair.
+## Overview
+
+This project demonstrates the deployment of a second Ubuntu Linux virtual machine in Microsoft Azure. The virtual machine was configured with SSH key authentication, secured with a Network Security Group, and prepared to host web applications using Nginx.
+
+---
+
+## Verification
+
+- Virtual machine deployed successfully.
+- SSH remote access verified.
+- Nginx installed and running.
+- Web server accessible through the public IP address.
+
+---
 
 ## Screenshots
 
 ### Review and Create
 
-![Review](screenshots/azure-vm002-vm-01-review-and-create.png)
+![Review and Create](screenshots/azure-vm002-vm-01-review-and-create.png)
 
-### Deployment Success
+---
 
-![Deployment](screenshots/azure-vm002-vm-02-deployment-success.png)
+### Deployment Successful
 
-### VM Overview
+![Deployment Successful](screenshots/azure-vm002-vm--02-deployment-success.png)
 
-![Overview](screenshots/azure-vm002-vm-deployment-03-vm-overview.png)
+---
+
+### Virtual Machine Overview
+
+![VM Overview](screenshots/azure-vm002-vm-deployment-03-vm-overview.png)
+
+---
 
 ### SSH Remote Access
 
-![SSH](screenshots/azure-vm002-vm-04-SSH-remote-access.png)
+![SSH Remote Access](screenshots/azure-vm002-vm-04-SSH-remote-access.png)
 
-## Outcome
+---
 
-Successfully deployed and remotely accessed a second Azure Linux virtual machine using SSH key authentication.
+### Nginx Web Server
+
+![Nginx Web Server](screenshots/azure-vm002-vm-05-nginx-web-server.png)
