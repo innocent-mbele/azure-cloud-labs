@@ -125,11 +125,7 @@ Shows the Application Gateway successfully routing traffic to the backend pool c
 
 This demonstration shows the Azure Application Gateway successfully distributing HTTP traffic between two Linux virtual machines running Nginx. Refreshing the browser confirms end-to-end Layer 7 load balancing by alternating requests between Backend Server 1 (VM1) and Backend Server 2 (VM2).
 
-▶️ **[Watch the demonstration on YouTube](https://youtu.be/zt_IU6-aZz0)**
-
-Or click the image below:
-
-[![Azure Application Gateway Demo](screenshots/azure-application-gateway-12-backend-pool-associated.png)](https://youtu.be/zt_IU6-aZz0)
+[![Watch on YouTube](https://img.shields.io/badge/▶️_Watch_Demo_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/zt_IU6-aZz0)
 
 ---
 
