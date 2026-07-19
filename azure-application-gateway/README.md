@@ -121,13 +121,11 @@ Shows the Application Gateway successfully routing traffic to the backend pool c
 
 ---
 
-# Demonstration Video
+## Demonstration Video
 
 The video below demonstrates end-to-end Layer 7 load balancing through the Azure Application Gateway. Refreshing the browser shows traffic being automatically distributed between Backend Server 1 (VM1) and Backend Server 2 (VM2).
 
-```
-videos/azure-application-gateway-end-to-end-load-balancing.mp4
-```
+▶️ **[Watch the demonstration video](videos/azure-application-gateway-end-to-end-load-balancing.mp4)**
 
 ---
 
