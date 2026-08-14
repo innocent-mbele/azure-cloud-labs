@@ -1,11 +1,5 @@
 # Azure Virtual Network Deployment
 
-## Overview
-
-This project demonstrates the deployment of an Azure Virtual Network (VNet) with a dedicated Resource Group and management subnet. The virtual network was configured with a custom address space and subnet to provide the foundation for deploying and managing Azure resources.
-
----
-
 ## Screenshots
 
 ### Deployment Successful
