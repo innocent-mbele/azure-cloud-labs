@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the creation of an Azure Private DNS Zone and its integration with an Azure Virtual Network. The DNS zone was linked to the virtual network to enable private name resolution for Azure resources without exposing DNS records to the public internet.
+I created Azure Private DNS Zone and its integration with an Azure Virtual Network. I linked the DNS zone to the virtual network to enable private name resolution for Azure resources without exposing DNS records to the public internet.
 
 ---
 
