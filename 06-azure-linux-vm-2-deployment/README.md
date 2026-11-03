@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the deployment of a second Ubuntu Linux virtual machine in Microsoft Azure. The virtual machine was configured with SSH key authentication, secured with a Network Security Group and prepared to host web applications using Nginx.
+In this project I demonstrates the deployment of a second Ubuntu Linux virtual machine in Microsoft Azure. I configured the virtual machine with SSH key authentication, secured it with a Network Security Group and prepared to host web applications using Nginx.
 
 ---
 
