@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the creation of an Azure Storage Account and the use of Azure Blob Storage to store files. A storage account was deployed, a blob container was created and a sample file was uploaded to verify successful storage configuration.
+I created an Azure Storage Account and used Azure Blob Storage to store files. I deployed a storage account, created a blob container and uploaded a sample file to verify successful storage configuration.
 
 ---
 
