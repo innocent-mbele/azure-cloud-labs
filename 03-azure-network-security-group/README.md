@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the creation and configuration of an Azure Network Security Group (NSG) to control inbound network traffic. Security rules were configured to allow SSH (port 22) for remote administration and HTTP (port 80) for web traffic. The NSG was then associated with the virtual network subnet to protect the deployed resources.
+In this project I demonstrated the creation and configuration of an Azure Network Security Group (NSG) to control inbound network traffic. I configured security rules to allow SSH (port 22) for remote administration and HTTP (port 80) for web traffic. I associated the NSG with the virtual network subnet to protect the deployed resources.
 
 ---
 
