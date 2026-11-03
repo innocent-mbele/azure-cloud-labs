@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the deployment of an Ubuntu Linux virtual machine in Microsoft Azure. The virtual machine was configured with SSH key authentication, Nginx was installed and configured, and a custom web page was hosted to verify successful deployment.
+I demonstrated the deployment of an Ubuntu Linux virtual machine in Microsoft Azure. I configured The virtual machine with SSH key authentication, installed Nginx and configured it and hosted a custom web page to verify successful deployment.
 
 ---
 
