@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the creation and attachment of an Azure Managed Disk to an existing Ubuntu Linux virtual machine. The disk was partitioned, formatted and mounted to provide additional persistent storage for the server.
+I demonstrated the creation and attachment of an Azure Managed Disk to an existing Ubuntu Linux virtual machine.  I partitioned, formatted and mounted the disk to provide additional persistent storage for the server.
 
 ---
 
