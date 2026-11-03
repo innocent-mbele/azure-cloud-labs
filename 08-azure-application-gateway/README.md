@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the deployment and configuration of an Azure Application Gateway to distribute HTTP traffic across two Linux virtual machines running Nginx. The project covers subnet creation, frontend configuration, backend pools, routing rules, validation, deployment and end-to-end load balancing verification.
+I demonstrated the deployment and configuration of an Azure Application Gateway to distribute HTTP traffic across two Linux virtual machines running Nginx. I created subnets, configured frontend configuration, backend pools, routing rules, validation, deployment and end-to-end load balancing verification.
 
 ---
 
